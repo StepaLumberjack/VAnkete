@@ -7,39 +7,301 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EE740F799E4374A8E8C7264 /* Pods_VK_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E560EA3354834263967E16 /* Pods_VK_client.framework */; };
+		FA0AEEAC1FBCAEB000019A23 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AEEAB1FBCAEB000019A23 /* MapViewController.swift */; };
+		FA0E7D411F77B71B0077F44B /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E7D401F77B71B0077F44B /* GroupsViewController.swift */; };
+		FA0E7D431F77B7350077F44B /* GroupsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E7D421F77B7350077F44B /* GroupsViewCell.swift */; };
+		FA0E7D471F77B7CD0077F44B /* AllGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E7D461F77B7CD0077F44B /* AllGroupsViewController.swift */; };
+		FA0E7D491F77B7EA0077F44B /* AllGroupsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E7D481F77B7EA0077F44B /* AllGroupsViewCell.swift */; };
+		FA0F9C5A1F7D6BF700789C9E /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0F9C591F7D6BF700789C9E /* Friend.swift */; };
+		FA1308BE1FA103F000C14C7B /* NewParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1308BD1FA103F000C14C7B /* NewParser.swift */; };
+		FA1308C01FA1046500C14C7B /* ParserFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1308BF1FA1046500C14C7B /* ParserFactory.swift */; };
+		FA1308C21FA104A800C14C7B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1308C11FA104A800C14C7B /* Parser.swift */; };
+		FA1308C41FA109CE00C14C7B /* New.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1308C31FA109CE00C14C7B /* New.swift */; };
+		FA2397481FC07EF200E5D51E /* FriendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2397471FC07EF200E5D51E /* FriendRequest.swift */; };
+		FA23974B1FC0855C00E5D51E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23974A1FC0855C00E5D51E /* Utils.swift */; };
+		FA269CDA1F810A91003C4633 /* FriendPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA269CD91F810A91003C4633 /* FriendPhoto.swift */; };
+		FA38975E1FD4582A00232195 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA38975D1FD4582A00232195 /* Messages.framework */; };
+		FA3897611FD4582A00232195 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3897601FD4582A00232195 /* MessagesViewController.swift */; };
+		FA3897641FD4582A00232195 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3897621FD4582A00232195 /* MainInterface.storyboard */; };
+		FA3897661FD4582A00232195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3897651FD4582A00232195 /* Assets.xcassets */; };
+		FA38976A1FD4582A00232195 /* ShareNews.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FA38975C1FD4582A00232195 /* ShareNews.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA4F88E01F7FF3F1005D08D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F88DF1F7FF3F1005D08D3 /* LoginViewController.swift */; };
+		FA4F88E21F800354005D08D3 /* VKLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F88E11F800354005D08D3 /* VKLoginService.swift */; };
+		FA4F88E41F80096F005D08D3 /* TBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F88E31F80096F005D08D3 /* TBVC.swift */; };
+		FA4F88E61F8019D6005D08D3 /* VKFriendsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F88E51F8019D6005D08D3 /* VKFriendsService.swift */; };
+		FA4F88E81F801DC4005D08D3 /* VKGroupsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F88E71F801DC4005D08D3 /* VKGroupsService.swift */; };
+		FA5A41211F78091600078462 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A41201F78091600078462 /* Group.swift */; };
+		FA8211E41F93CBC1005356CD /* NewsLentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8211E31F93CBC1005356CD /* NewsLentViewController.swift */; };
+		FA8211E61F93D4A0005356CD /* NewsLentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8211E51F93D4A0005356CD /* NewsLentViewCell.swift */; };
+		FA8211EA1F93D622005356CD /* VKNewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8211E91F93D622005356CD /* VKNewsService.swift */; };
+		FA925F721F7420DF00BDB6FE /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA925F711F7420DF00BDB6FE /* FriendsListViewController.swift */; };
+		FA925F741F74210100BDB6FE /* FriendsListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA925F731F74210100BDB6FE /* FriendsListViewCell.swift */; };
+		FA925F771F743DEB00BDB6FE /* FriendPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA925F761F743DEB00BDB6FE /* FriendPhotosViewController.swift */; };
+		FA925F791F743E0400BDB6FE /* FriendPhotosViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA925F781F743E0400BDB6FE /* FriendPhotosViewCell.swift */; };
+		FA965F751FADCD5100B8AC89 /* GetCacheImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA965F741FADCD5100B8AC89 /* GetCacheImage.swift */; };
+		FA965F771FADCED500B8AC89 /* SetImageToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA965F761FADCED500B8AC89 /* SetImageToRow.swift */; };
+		FA965F791FADD53700B8AC89 /* SetGroupimageToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA965F781FADD53700B8AC89 /* SetGroupimageToRow.swift */; };
 		FA9933C11F69904100BC7A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9933C01F69904100BC7A84 /* AppDelegate.swift */; };
-		FA9933C31F69904100BC7A84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9933C21F69904100BC7A84 /* ViewController.swift */; };
 		FA9933C61F69904100BC7A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9933C41F69904100BC7A84 /* Main.storyboard */; };
 		FA9933C81F69904100BC7A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9933C71F69904100BC7A84 /* Assets.xcassets */; };
 		FA9933CB1F69904100BC7A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9933C91F69904100BC7A84 /* LaunchScreen.storyboard */; };
+		FAC2E17A1FD2AB4A00C04BA0 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC2E1791FD2AB4A00C04BA0 /* NotificationCenter.framework */; };
+		FAC2E17D1FD2AB4A00C04BA0 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2E17C1FD2AB4A00C04BA0 /* TodayViewController.swift */; };
+		FAC2E1801FD2AB4A00C04BA0 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC2E17E1FD2AB4A00C04BA0 /* MainInterface.storyboard */; };
+		FAC2E1841FD2AB4A00C04BA0 /* LastNews.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FAC2E1781FD2AB4A00C04BA0 /* LastNews.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FAD07C671FB0C55000DB65BB /* DBEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD07C661FB0C55000DB65BB /* DBEntities.swift */; };
+		FAF9D20F1FB09894002AE572 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAF9D20E1FB09894002AE572 /* GoogleService-Info.plist */; };
+		FAFC90C41FBDEB3D00C0E665 /* VKPostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC90C31FBDEB3D00C0E665 /* VKPostService.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FA3897681FD4582A00232195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9933B51F69904100BC7A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA38975B1FD4582A00232195;
+			remoteInfo = ShareNews;
+		};
+		FAC2E1821FD2AB4A00C04BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9933B51F69904100BC7A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC2E1771FD2AB4A00C04BA0;
+			remoteInfo = LastNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAC2E1881FD2AB4A00C04BA0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FAC2E1841FD2AB4A00C04BA0 /* LastNews.appex in Embed App Extensions */,
+				FA38976A1FD4582A00232195 /* ShareNews.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BF9E6CAF39F1767C4E8293C5 /* Pods-VK client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK client.release.xcconfig"; path = "Pods/Target Support Files/Pods-VK client/Pods-VK client.release.xcconfig"; sourceTree = "<group>"; };
+		D8E560EA3354834263967E16 /* Pods_VK_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VK_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F548B6BB8E5D0D711D59B1E7 /* Pods-VK client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK client.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VK client/Pods-VK client.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0AEEAB1FBCAEB000019A23 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FA0E7D401F77B71B0077F44B /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		FA0E7D421F77B7350077F44B /* GroupsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewCell.swift; sourceTree = "<group>"; };
+		FA0E7D461F77B7CD0077F44B /* AllGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsViewController.swift; sourceTree = "<group>"; };
+		FA0E7D481F77B7EA0077F44B /* AllGroupsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsViewCell.swift; sourceTree = "<group>"; };
+		FA0F9C591F7D6BF700789C9E /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		FA1308BD1FA103F000C14C7B /* NewParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewParser.swift; sourceTree = "<group>"; };
+		FA1308BF1FA1046500C14C7B /* ParserFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserFactory.swift; sourceTree = "<group>"; };
+		FA1308C11FA104A800C14C7B /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		FA1308C31FA109CE00C14C7B /* New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New.swift; sourceTree = "<group>"; };
+		FA2397471FC07EF200E5D51E /* FriendRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequest.swift; sourceTree = "<group>"; };
+		FA23974A1FC0855C00E5D51E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FA269CD91F810A91003C4633 /* FriendPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendPhoto.swift; sourceTree = "<group>"; };
+		FA38975C1FD4582A00232195 /* ShareNews.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareNews.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA38975D1FD4582A00232195 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		FA3897601FD4582A00232195 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		FA3897631FD4582A00232195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		FA3897651FD4582A00232195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA3897671FD4582A00232195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4F88DF1F7FF3F1005D08D3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FA4F88E11F800354005D08D3 /* VKLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKLoginService.swift; sourceTree = "<group>"; };
+		FA4F88E31F80096F005D08D3 /* TBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBVC.swift; sourceTree = "<group>"; };
+		FA4F88E51F8019D6005D08D3 /* VKFriendsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKFriendsService.swift; sourceTree = "<group>"; };
+		FA4F88E71F801DC4005D08D3 /* VKGroupsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKGroupsService.swift; sourceTree = "<group>"; };
+		FA5A41201F78091600078462 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		FA8211E31F93CBC1005356CD /* NewsLentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsLentViewController.swift; sourceTree = "<group>"; };
+		FA8211E51F93D4A0005356CD /* NewsLentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsLentViewCell.swift; sourceTree = "<group>"; };
+		FA8211E91F93D622005356CD /* VKNewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKNewsService.swift; sourceTree = "<group>"; };
+		FA925F711F7420DF00BDB6FE /* FriendsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
+		FA925F731F74210100BDB6FE /* FriendsListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListViewCell.swift; sourceTree = "<group>"; };
+		FA925F761F743DEB00BDB6FE /* FriendPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendPhotosViewController.swift; sourceTree = "<group>"; };
+		FA925F781F743E0400BDB6FE /* FriendPhotosViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendPhotosViewCell.swift; sourceTree = "<group>"; };
+		FA965F741FADCD5100B8AC89 /* GetCacheImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCacheImage.swift; sourceTree = "<group>"; };
+		FA965F761FADCED500B8AC89 /* SetImageToRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetImageToRow.swift; sourceTree = "<group>"; };
+		FA965F781FADD53700B8AC89 /* SetGroupimageToRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGroupimageToRow.swift; sourceTree = "<group>"; };
 		FA9933BD1F69904100BC7A84 /* VK client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9933C01F69904100BC7A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA9933C21F69904100BC7A84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA9933C51F69904100BC7A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA9933C71F69904100BC7A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA9933CA1F69904100BC7A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA9933CC1F69904100BC7A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC2E1781FD2AB4A00C04BA0 /* LastNews.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LastNews.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC2E1791FD2AB4A00C04BA0 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		FAC2E17C1FD2AB4A00C04BA0 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		FAC2E17F1FD2AB4A00C04BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		FAC2E1811FD2AB4A00C04BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC2E1891FD2ACFF00C04BA0 /* VK client.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "VK client.entitlements"; sourceTree = "<group>"; };
+		FAC2E18A1FD2AD4200C04BA0 /* LastNews.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LastNews.entitlements; sourceTree = "<group>"; };
+		FAD07C661FB0C55000DB65BB /* DBEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBEntities.swift; sourceTree = "<group>"; };
+		FAF9D20E1FB09894002AE572 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAFC90C31FBDEB3D00C0E665 /* VKPostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKPostService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FA3897591FD4582A00232195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA38975E1FD4582A00232195 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA9933BA1F69904100BC7A84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE740F799E4374A8E8C7264 /* Pods_VK_client.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC2E1751FD2AB4A00C04BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC2E17A1FD2AB4A00C04BA0 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0211716C282A172AB69C2764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8E560EA3354834263967E16 /* Pods_VK_client.framework */,
+				FAC2E1791FD2AB4A00C04BA0 /* NotificationCenter.framework */,
+				FA38975D1FD4582A00232195 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF0A4232631571079CBC9B2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F548B6BB8E5D0D711D59B1E7 /* Pods-VK client.debug.xcconfig */,
+				BF9E6CAF39F1767C4E8293C5 /* Pods-VK client.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA0AEEAA1FBCAE7E00019A23 /* MapWork */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AEEAB1FBCAEB000019A23 /* MapViewController.swift */,
+			);
+			name = MapWork;
+			sourceTree = "<group>";
+		};
+		FA0E7D3F1F77B6A10077F44B /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E7D401F77B71B0077F44B /* GroupsViewController.swift */,
+				FA0E7D421F77B7350077F44B /* GroupsViewCell.swift */,
+				FA965F781FADD53700B8AC89 /* SetGroupimageToRow.swift */,
+			);
+			name = Groups;
+			sourceTree = "<group>";
+		};
+		FA0E7D441F77B7970077F44B /* AllGroups */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E7D461F77B7CD0077F44B /* AllGroupsViewController.swift */,
+				FA0E7D481F77B7EA0077F44B /* AllGroupsViewCell.swift */,
+			);
+			name = AllGroups;
+			sourceTree = "<group>";
+		};
+		FA1308BC1FA103CA00C14C7B /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				FA1308BD1FA103F000C14C7B /* NewParser.swift */,
+				FA1308BF1FA1046500C14C7B /* ParserFactory.swift */,
+				FA1308C11FA104A800C14C7B /* Parser.swift */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		FA2397491FC0854B00E5D51E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FA23974A1FC0855C00E5D51E /* Utils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		FA38975F1FD4582A00232195 /* ShareNews */ = {
+			isa = PBXGroup;
+			children = (
+				FA3897601FD4582A00232195 /* MessagesViewController.swift */,
+				FA3897621FD4582A00232195 /* MainInterface.storyboard */,
+				FA3897651FD4582A00232195 /* Assets.xcassets */,
+				FA3897671FD4582A00232195 /* Info.plist */,
+			);
+			path = ShareNews;
+			sourceTree = "<group>";
+		};
+		FA4F88DC1F7FF085005D08D3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A41201F78091600078462 /* Group.swift */,
+				FA269CD91F810A91003C4633 /* FriendPhoto.swift */,
+				FA0F9C591F7D6BF700789C9E /* Friend.swift */,
+				FA2397471FC07EF200E5D51E /* FriendRequest.swift */,
+				FA1308C31FA109CE00C14C7B /* New.swift */,
+				FA4F88E11F800354005D08D3 /* VKLoginService.swift */,
+				FA4F88E51F8019D6005D08D3 /* VKFriendsService.swift */,
+				FA4F88E71F801DC4005D08D3 /* VKGroupsService.swift */,
+				FA8211E91F93D622005356CD /* VKNewsService.swift */,
+				FAFC90C31FBDEB3D00C0E665 /* VKPostService.swift */,
+				FA965F741FADCD5100B8AC89 /* GetCacheImage.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		FA8211E21F93CB8F005356CD /* NewsLent */ = {
+			isa = PBXGroup;
+			children = (
+				FA8211E31F93CBC1005356CD /* NewsLentViewController.swift */,
+				FA8211E51F93D4A0005356CD /* NewsLentViewCell.swift */,
+			);
+			name = NewsLent;
+			sourceTree = "<group>";
+		};
+		FA925F701F74208800BDB6FE /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+				FA925F711F7420DF00BDB6FE /* FriendsListViewController.swift */,
+				FA925F731F74210100BDB6FE /* FriendsListViewCell.swift */,
+				FA965F761FADCED500B8AC89 /* SetImageToRow.swift */,
+			);
+			name = FriendsList;
+			sourceTree = "<group>";
+		};
+		FA925F751F743DBB00BDB6FE /* FriendPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				FA925F761F743DEB00BDB6FE /* FriendPhotosViewController.swift */,
+				FA925F781F743E0400BDB6FE /* FriendPhotosViewCell.swift */,
+			);
+			name = FriendPhotos;
+			sourceTree = "<group>";
+		};
 		FA9933B41F69904100BC7A84 = {
 			isa = PBXGroup;
 			children = (
 				FA9933BF1F69904100BC7A84 /* VK client */,
+				FAC2E17B1FD2AB4A00C04BA0 /* LastNews */,
+				FA38975F1FD4582A00232195 /* ShareNews */,
 				FA9933BE1F69904100BC7A84 /* Products */,
+				AF0A4232631571079CBC9B2B /* Pods */,
+				0211716C282A172AB69C2764 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +309,8 @@
 			isa = PBXGroup;
 			children = (
 				FA9933BD1F69904100BC7A84 /* VK client.app */,
+				FAC2E1781FD2AB4A00C04BA0 /* LastNews.appex */,
+				FA38975C1FD4582A00232195 /* ShareNews.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,35 +318,107 @@
 		FA9933BF1F69904100BC7A84 /* VK client */ = {
 			isa = PBXGroup;
 			children = (
-				FA9933C01F69904100BC7A84 /* AppDelegate.swift */,
-				FA9933C21F69904100BC7A84 /* ViewController.swift */,
+				FAC2E1891FD2ACFF00C04BA0 /* VK client.entitlements */,
+				FA2397491FC0854B00E5D51E /* Utils */,
+				FAD07C651FB0C53300DB65BB /* DBEntities */,
+				FA1308BC1FA103CA00C14C7B /* Parsers */,
+				FA0AEEAA1FBCAE7E00019A23 /* MapWork */,
+				FA8211E21F93CB8F005356CD /* NewsLent */,
+				FA0E7D441F77B7970077F44B /* AllGroups */,
+				FA0E7D3F1F77B6A10077F44B /* Groups */,
+				FA925F751F743DBB00BDB6FE /* FriendPhotos */,
+				FA925F701F74208800BDB6FE /* FriendsList */,
+				FA4F88DC1F7FF085005D08D3 /* Services */,
 				FA9933C41F69904100BC7A84 /* Main.storyboard */,
+				FA9933C01F69904100BC7A84 /* AppDelegate.swift */,
 				FA9933C71F69904100BC7A84 /* Assets.xcassets */,
 				FA9933C91F69904100BC7A84 /* LaunchScreen.storyboard */,
+				FAF9D20E1FB09894002AE572 /* GoogleService-Info.plist */,
 				FA9933CC1F69904100BC7A84 /* Info.plist */,
+				FA4F88DF1F7FF3F1005D08D3 /* LoginViewController.swift */,
+				FA4F88E31F80096F005D08D3 /* TBVC.swift */,
 			);
 			path = "VK client";
+			sourceTree = "<group>";
+		};
+		FAC2E17B1FD2AB4A00C04BA0 /* LastNews */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2E18A1FD2AD4200C04BA0 /* LastNews.entitlements */,
+				FAC2E17C1FD2AB4A00C04BA0 /* TodayViewController.swift */,
+				FAC2E17E1FD2AB4A00C04BA0 /* MainInterface.storyboard */,
+				FAC2E1811FD2AB4A00C04BA0 /* Info.plist */,
+			);
+			path = LastNews;
+			sourceTree = "<group>";
+		};
+		FAD07C651FB0C53300DB65BB /* DBEntities */ = {
+			isa = PBXGroup;
+			children = (
+				FAD07C661FB0C55000DB65BB /* DBEntities.swift */,
+			);
+			name = DBEntities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA9933BC1F69904100BC7A84 /* VK client */ = {
+		FA38975B1FD4582A00232195 /* ShareNews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA9933CF1F69904100BC7A84 /* Build configuration list for PBXNativeTarget "VK client" */;
+			buildConfigurationList = FA38976D1FD4582A00232195 /* Build configuration list for PBXNativeTarget "ShareNews" */;
 			buildPhases = (
-				FA9933B91F69904100BC7A84 /* Sources */,
-				FA9933BA1F69904100BC7A84 /* Frameworks */,
-				FA9933BB1F69904100BC7A84 /* Resources */,
+				FA3897581FD4582A00232195 /* Sources */,
+				FA3897591FD4582A00232195 /* Frameworks */,
+				FA38975A1FD4582A00232195 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = ShareNews;
+			productName = ShareNews;
+			productReference = FA38975C1FD4582A00232195 /* ShareNews.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+		FA9933BC1F69904100BC7A84 /* VK client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9933CF1F69904100BC7A84 /* Build configuration list for PBXNativeTarget "VK client" */;
+			buildPhases = (
+				D5EAC662B4BB3139E6860951 /* [CP] Check Pods Manifest.lock */,
+				FA9933B91F69904100BC7A84 /* Sources */,
+				FA9933BA1F69904100BC7A84 /* Frameworks */,
+				FA9933BB1F69904100BC7A84 /* Resources */,
+				BF6BBCA541030A3A4FA4A47E /* [CP] Embed Pods Frameworks */,
+				02FEF89A2EDEEB9B2203B9DC /* [CP] Copy Pods Resources */,
+				FAC2E1881FD2AB4A00C04BA0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC2E1831FD2AB4A00C04BA0 /* PBXTargetDependency */,
+				FA3897691FD4582A00232195 /* PBXTargetDependency */,
+			);
 			name = "VK client";
 			productName = "VK client";
 			productReference = FA9933BD1F69904100BC7A84 /* VK client.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FAC2E1771FD2AB4A00C04BA0 /* LastNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC2E1871FD2AB4A00C04BA0 /* Build configuration list for PBXNativeTarget "LastNews" */;
+			buildPhases = (
+				FAC2E1741FD2AB4A00C04BA0 /* Sources */,
+				FAC2E1751FD2AB4A00C04BA0 /* Frameworks */,
+				FAC2E1761FD2AB4A00C04BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LastNews;
+			productName = LastNews;
+			productReference = FAC2E1781FD2AB4A00C04BA0 /* LastNews.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -90,13 +426,38 @@
 		FA9933B51F69904100BC7A84 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = macbookpro;
 				TargetAttributes = {
+					FA38975B1FD4582A00232195 = {
+						CreatedOnToolsVersion = 9.0.1;
+						DevelopmentTeam = StepaTeam;
+						ProvisioningStyle = Automatic;
+					};
 					FA9933BC1F69904100BC7A84 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = StepaTeam;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					FAC2E1771FD2AB4A00C04BA0 = {
+						CreatedOnToolsVersion = 9.0.1;
+						DevelopmentTeam = StepaTeam;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -114,36 +475,189 @@
 			projectRoot = "";
 			targets = (
 				FA9933BC1F69904100BC7A84 /* VK client */,
+				FAC2E1771FD2AB4A00C04BA0 /* LastNews */,
+				FA38975B1FD4582A00232195 /* ShareNews */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FA38975A1FD4582A00232195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3897661FD4582A00232195 /* Assets.xcassets in Resources */,
+				FA3897641FD4582A00232195 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA9933BB1F69904100BC7A84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FA9933CB1F69904100BC7A84 /* LaunchScreen.storyboard in Resources */,
+				FAF9D20F1FB09894002AE572 /* GoogleService-Info.plist in Resources */,
 				FA9933C81F69904100BC7A84 /* Assets.xcassets in Resources */,
 				FA9933C61F69904100BC7A84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAC2E1761FD2AB4A00C04BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC2E1801FD2AB4A00C04BA0 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02FEF89A2EDEEB9B2203B9DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VK client/Pods-VK client-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6BBCA541030A3A4FA4A47E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VK client/Pods-VK client-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VK client/Pods-VK client-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5EAC662B4BB3139E6860951 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VK client-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		FA3897581FD4582A00232195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3897611FD4582A00232195 /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA9933B91F69904100BC7A84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA9933C31F69904100BC7A84 /* ViewController.swift in Sources */,
+				FA5A41211F78091600078462 /* Group.swift in Sources */,
+				FA0E7D411F77B71B0077F44B /* GroupsViewController.swift in Sources */,
+				FA8211EA1F93D622005356CD /* VKNewsService.swift in Sources */,
+				FA0E7D431F77B7350077F44B /* GroupsViewCell.swift in Sources */,
+				FAFC90C41FBDEB3D00C0E665 /* VKPostService.swift in Sources */,
+				FA925F721F7420DF00BDB6FE /* FriendsListViewController.swift in Sources */,
+				FA0E7D471F77B7CD0077F44B /* AllGroupsViewController.swift in Sources */,
+				FA8211E61F93D4A0005356CD /* NewsLentViewCell.swift in Sources */,
+				FA4F88E81F801DC4005D08D3 /* VKGroupsService.swift in Sources */,
+				FA8211E41F93CBC1005356CD /* NewsLentViewController.swift in Sources */,
+				FA269CDA1F810A91003C4633 /* FriendPhoto.swift in Sources */,
+				FA965F791FADD53700B8AC89 /* SetGroupimageToRow.swift in Sources */,
+				FA925F771F743DEB00BDB6FE /* FriendPhotosViewController.swift in Sources */,
+				FA1308BE1FA103F000C14C7B /* NewParser.swift in Sources */,
+				FA4F88E41F80096F005D08D3 /* TBVC.swift in Sources */,
+				FAD07C671FB0C55000DB65BB /* DBEntities.swift in Sources */,
+				FA925F741F74210100BDB6FE /* FriendsListViewCell.swift in Sources */,
+				FA4F88E21F800354005D08D3 /* VKLoginService.swift in Sources */,
 				FA9933C11F69904100BC7A84 /* AppDelegate.swift in Sources */,
+				FA965F771FADCED500B8AC89 /* SetImageToRow.swift in Sources */,
+				FA1308C41FA109CE00C14C7B /* New.swift in Sources */,
+				FA0E7D491F77B7EA0077F44B /* AllGroupsViewCell.swift in Sources */,
+				FA0F9C5A1F7D6BF700789C9E /* Friend.swift in Sources */,
+				FA23974B1FC0855C00E5D51E /* Utils.swift in Sources */,
+				FA4F88E01F7FF3F1005D08D3 /* LoginViewController.swift in Sources */,
+				FA4F88E61F8019D6005D08D3 /* VKFriendsService.swift in Sources */,
+				FA1308C21FA104A800C14C7B /* Parser.swift in Sources */,
+				FA1308C01FA1046500C14C7B /* ParserFactory.swift in Sources */,
+				FA2397481FC07EF200E5D51E /* FriendRequest.swift in Sources */,
+				FA925F791F743E0400BDB6FE /* FriendPhotosViewCell.swift in Sources */,
+				FA0AEEAC1FBCAEB000019A23 /* MapViewController.swift in Sources */,
+				FA965F751FADCD5100B8AC89 /* GetCacheImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC2E1741FD2AB4A00C04BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC2E17D1FD2AB4A00C04BA0 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		FA3897691FD4582A00232195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA38975B1FD4582A00232195 /* ShareNews */;
+			targetProxy = FA3897681FD4582A00232195 /* PBXContainerItemProxy */;
+		};
+		FAC2E1831FD2AB4A00C04BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC2E1771FD2AB4A00C04BA0 /* LastNews */;
+			targetProxy = FAC2E1821FD2AB4A00C04BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		FA3897621FD4582A00232195 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3897631FD4582A00232195 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		FA9933C41F69904100BC7A84 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -160,9 +674,57 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		FAC2E17E1FD2AB4A00C04BA0 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC2E17F1FD2AB4A00C04BA0 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FA38976B1FD4582A00232195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ShareNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "feel-good-inc.VK-client.ShareNews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA38976C1FD4582A00232195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ShareNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "feel-good-inc.VK-client.ShareNews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		FA9933CD1F69904100BC7A84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -173,7 +735,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -181,13 +745,18 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = StepaTeam;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -210,6 +779,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -224,7 +795,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -232,13 +805,18 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = StepaTeam;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -253,6 +831,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -260,31 +840,88 @@
 		};
 		FA9933D01F69904100BC7A84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F548B6BB8E5D0D711D59B1E7 /* Pods-VK client.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "VK client/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "feel-good-inc.VK-client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		FA9933D11F69904100BC7A84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9E6CAF39F1767C4E8293C5 /* Pods-VK client.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "VK client/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "feel-good-inc.VK-client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		FAC2E1851FD2AB4A00C04BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LastNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "feel-good-inc.VK-client.LastNews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC2E1861FD2AB4A00C04BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LastNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "feel-good-inc.VK-client.LastNews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FA38976D1FD4582A00232195 /* Build configuration list for PBXNativeTarget "ShareNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA38976B1FD4582A00232195 /* Debug */,
+				FA38976C1FD4582A00232195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FA9933B81F69904100BC7A84 /* Build configuration list for PBXProject "VK client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -301,6 +938,16 @@
 				FA9933D11F69904100BC7A84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC2E1871FD2AB4A00C04BA0 /* Build configuration list for PBXNativeTarget "LastNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC2E1851FD2AB4A00C04BA0 /* Debug */,
+				FAC2E1861FD2AB4A00C04BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
