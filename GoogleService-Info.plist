@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>430491358208-rta8mcserd2069a9bibffqbabfspeoib.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.430491358208-rta8mcserd2069a9bibffqbabfspeoib</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD37GedI6EKpvvpWe_R1M14l1jC8Ml6Tug</string>
+	<key>GCM_SENDER_ID</key>
+	<string>430491358208</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>feel-good-inc.VK-client</string>
+	<key>PROJECT_ID</key>
+	<string>vankete-5f526</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vankete-5f526.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:430491358208:ios:e27f8b42cdef07e9</string>
+	<key>DATABASE_URL</key>
+	<string>https://vankete-5f526.firebaseio.com</string>
+</dict>
+</plist>
